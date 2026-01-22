@@ -31,7 +31,9 @@ Here are the basic steps from the video:
 
 ## Environment
 
-I've provided a very simple `environment.yml` file in this repository for you to use in the course.  This should work on all operating systems and on your installation whether you used Anaconda or Miniconda.  It doesn't contain any specific paths or force any specific builds except for Python 3.11 -- if you take a look at the file, you'll see that I've organized it in groups for a clearer understanding of what we're installing when we create the environment for the course. 
+Conda environments are isolated workspaces that contain specific versions of Python and packages.  Using specific environments for specific courses or projects has a few benefits: they avoid conflicts between different package versions, they allow you to have multiple different versions of package on your system without them interfering with one another; they protect your base Python installation so you don't accidently break it (you can always delete and recreate Python environments); you can install the specific packages you need for a course or for a project; they simplify reproducibility (e.g. if package functions change between when you publish your code and when someone tries to reproduce it).
+
+I've provided a very simple `environment.yml` file in this repository for you to use in the course that will create an environment on your computer called `geog696c_python311`.  This should work on all operating systems and on your particular installation whether you used Anaconda or Miniconda.  It doesn't contain any computer-specific paths and it doesn't force any specific builds (except specifying Python 3.11). If you take a look at the file, you'll see that I've organized it in grouping for a clearer understanding of what we're installing for the course (which is relatively lean). 
 
 To install and use the environment, type the following commands from a bash terminal (macos) or the Anaconda Prompt (NOT the Command Prompt or the Powershell):
 
