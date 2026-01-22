@@ -29,52 +29,9 @@ Here are the basic steps from the video:
 * Within Visual Studio Code, install the Python extensions (from Microsoft)
 * Test your system 
 
-## A few essential conda commands
-
-## 1. List all environments
-```bash
-conda env list
-```
-
-## 2. Create a new environment called 'myenv'
-```bash
-conda create -n myenv python=3.11
-```
-
-## 3. Activate an environment called 'myenv'
-```bash
-conda activate myenv
-```
-
-## 4. Deactivate current environment (the one you're in)
-```bash
-conda deactivate
-```
-
-## 5. Install a package using conda
-```bash
-conda install package_name
-```
-
-## 6. List installed packages in current environment
-```bash
-conda list
-```
-
-## 7. Remove an environment
-```bash
-conda env remove -n myenv
-```
-
-## 8. Update conda itself
-```bash
-conda update conda
-```
-
-
 ## Environment
 
-Coming soon ... 
+I've provided a very simple `environment.yml` file in this repository for you to use in the course. 
 
 ## Integrated Development Environments (IDE)
 
