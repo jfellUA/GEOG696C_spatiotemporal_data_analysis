@@ -35,14 +35,14 @@ Conda environments are isolated workspaces that contain specific versions of Pyt
 
 I've provided a very simple `environment.yml` file in this repository for you to use in the course that will create an environment on your computer called `geog696c_python311`.  This should work on all operating systems and on your particular installation whether you used Anaconda or Miniconda.  It doesn't contain any computer-specific paths and it doesn't force any specific builds (except specifying Python 3.11). If you take a look at the file, you'll see that I've organized it in grouping for a clearer understanding of what we're installing for the course (which is relatively lean). 
 
-To install and use the environment, type the following commands from a bash terminal (macos) or the Anaconda Prompt (NOT the Command Prompt or the Powershell):
+To install and use the environment, first download the `environment.yml` file in this repository (someplace easy to navigate to), then type the following commands in a bash terminal (for macos) or the Anaconda Prompt (NOT the Command Prompt or the Powershell) for Windows:
 
 ```
 conda env create -f environment.yml
 conda activate geog696c_python311
 ```
 
-A cheatsheet of additional `conda` commands can be found [here](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html). 
+A cheatsheet of additional `conda` commands you might find useful can be found [here](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html). 
 
 ## Integrated Development Environments (IDE)
 
